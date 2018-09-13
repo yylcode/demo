@@ -1,5 +1,6 @@
 <template>
 	<div>
+		 
 		<find-header></find-header>
 		<find-footer></find-footer>
 

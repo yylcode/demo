@@ -1,5 +1,6 @@
 <template>
 	<div>
+		 
 		 <list-header></list-header>
 		 <list-footer></list-footer>
 	</div>
