@@ -1,7 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/pages/home/Home'  //@代表的是src目录在build=>webpack.base.conf.js里配置
-import City from '@/pages/city/City'
+import Find from '@/pages/find/Find'
+import List from '@/pages/list/List'
+import Me from '@/pages/me/Me'
 Vue.use(Router)
 
 export default new Router({
@@ -12,9 +14,24 @@ export default new Router({
       component: Home
     },
     {
-      path: '/city',
-      name:'City',
-      component: City
+      path: '/home',
+      name: 'Home',
+      component: Home
+    },
+    {
+      path: '/find',
+      name:'Find',
+      component: Find
+    },
+     {
+      path: '/list',
+      name:'List',
+      component: List
+    },
+     {
+      path: '/me',
+      name:'Me',
+      component: Me
     }
   ],
   scrollBehavior(to,from,savedPosition){

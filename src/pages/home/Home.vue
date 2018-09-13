@@ -1,16 +1,17 @@
 <template>
-	<div>
-		<router-link to="/city">
+	<div> 
 		<home-header></home-header>
-		</router-link>
+		<page-footer></page-footer>
 	</div>
 </template>
 <script>
 	import HomeHeader from './components/Header'
+	import PageFooter from '../../components/Footer'
 	export default{
 		name:'Home',
 		components:{
-			HomeHeader
+			HomeHeader,
+			PageFooter
 		}
 	}
 </script>

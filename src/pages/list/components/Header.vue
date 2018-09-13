@@ -1,14 +1,14 @@
 <template>
 	<div class="content">
-		首页
+		订单页头部组件
 	</div>
 </template>
 <script>
 	export default{
-		name:'Header'
+		name:"Header"
 	}
 </script>
-<style lang='stylus' scoped="">
-	 .content
-	 	font-size:1rem
+<style lang="stylus" scoped>
+	.content
+		font-size:1rem
 </style>
