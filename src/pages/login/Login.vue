@@ -1,11 +1,15 @@
 <template>
 	<div class="content">
-		登录
+		<login-form></login-form>
 	</div>
 </template>
 <script>
+	import LoginForm from './components/Form'
 	export default{
-		name:"Login"
+		name:"Login",
+		components:{
+			LoginForm
+		}
 	}
 </script>
 <style lang="stylus" scoped>

@@ -34,9 +34,10 @@
 	position:fixed
 	z-index:999
 	display:flex
-	bottom:0.1rem
+	bottom:0rem
 	width:100%
 	padding-top:.2rem
+	background: #fff
 	.item
 		width:25%
 		text-align:center
